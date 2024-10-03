@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Mentee Home Page</title>
+  <link rel="stylesheet" href="MenteeHomePage.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#" class="active"><img src="Icons/Home icon.svg" alt="Home"> Home</a></li>
+        <li><a href="#"><img src="Icons/Mentors icon.svg" alt="Mentors"> Mentors</a></li>
+        <li><a href="#"><img src="Icons/Blog icon.svg" alt="Blogs"> Blogs</a></li>
+        <li><a href="#"><img src="Icons/FAQ icon.svg" alt="FAQs"> FAQs</a></li>
+        <li><a href="#"><img src="Icons/Contact icon.svg" alt="Contact"> Contact</a></li>
+        <li><a href="#"><img src="Icons/Pages icon.svg" alt="Pages"> Pages</a></li>
+      </ul>
+    </nav>
+    <div class="cta-buttons">
+      <a href="signup.html" class="btn btn-signup">Sign Up</a>
+      <a href="getstarted.html" class="btn btn-getstarted">Get Started</a>
+    </div>
+    <div class="main-content">
+      <header class="header-section">
+        <div class="hero-section">
+          <h1>Learn and grow with help from world-class mentors</h1>
+          <p>Build an epic career with experts and mentors from all over the world, let's start today.</p>
+        </div>
+        <div class="search-container">
+          <form class="search-form">
+            <div class="search-icon">
+              <img src="Icons/search icon.svg" alt="Search Icon" />
+            </div>
+            <input type="text" placeholder="Search by mentor, language or..." class="search-input">
+            <select class="search-dropdown" name="categories">
+              <option value="">Categories</option>
+              <option value="mentorship">Mentorship</option>
+              <option value="courses">Courses</option>
+            </select>
+            <select class="search-dropdown" name="country">
+              <option value="">Country</option>
+              <option value="us">United States</option>
+              <option value="uk">United Kingdom</option>
+            </select>
+            <button type="submit" class="search-button">SEARCH</button>
+          </form>
+        </div>
+      </header>
+    </div>
+    
+    
+    <section class="skills-section">
+      <div class="title-container">
+        <h1>All the skills you need in one place</h1>
+        <p>From critical skills to technical topics, TSX supports your professional development.</p>
+      </div>
+      <div class="skills-carousel">
+        <div class="carousel-container" id="carousel-container">
+          <div class="course-card">
+            <img src="Images/course1.jpeg" alt="Course Image">
+            <div class="card-content">
+              <h3>The Complete 2024 Web Development Bootcamp</h3>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+          <div class="course-card">
+            <img src="Images/course2.jpeg" alt="Course Image">
+            <div class="card-content">
+              <h3>[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02</h3>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+          <div class="course-card">
+            <img src="Images/course3.jpeg" alt="Course Image">
+            <div class="card-content">
+              <h3>The Complete Python Bootcamp: From Zero to Hero in Python</h3>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+          <div class="course-card">
+            <img src="Images/course4.jpg" alt="Course Image">
+            <div class="card-content">
+              <h3>The Complete 2024 Web Development Bootcamp</h3>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+          <div class="course-card">
+            <img src="Images/course5.jpeg" alt="Course Image">
+            <div class="card-content">
+              <h3>The Complete 2024 Web Development Bootcamp</h3>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+          <div class="course-card">
+            <img src="Images/course6.jpeg" alt="Course Image">
+            <div class="card-content">
+              <h3>The Complete 2024 Web Development Bootcamp</h3>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control left-arrow" onclick="moveLeft()">&#10094;</button>
+        <button class="carousel-control right-arrow" onclick="moveRight()">&#10095;</button>
+      </div>
+      <div class="show-more">
+        <button onclick="showMore()">Show More</button>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>Empowering your journey, one mentorship at a time. Unlock your potential with our SaaS mentoring system, designed to guide, inspire, and elevate your success.</p>
+          <div class="footer-icons">
+            <a href="#" class="social-icon"><img src="Icons/Facebook icon.svg" alt="Facebook Icon"></a>
+            <a href="#" class="social-icon"><img src="Icons/Twitter icon.svg" alt="Twitter Icon"></a>
+            <a href="#" class="social-icon"><img src="Icons/LinkedIn icon.svg" alt="LinkedIn Icon"></a>
+            <a href="#" class="social-icon"><img src="Icons/Instagram icon.svg" alt="Instagram Icon"></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <ul class="services">
+            <li><strong>Services</strong></li>
+            <li><a href="#">Mentors</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+          <ul class="pages">
+            <li><strong>Pages</strong></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Policies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2024 All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="MenteeHomePage.js"></script>
+</body>
+</html>
+
+ 
+    
+
+    
